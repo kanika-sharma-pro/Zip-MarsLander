@@ -79,8 +79,8 @@ public class Simulation {
         // create a new BurnInputStream
         // pass the new BurnInputStream to the runSimulation method
         BurnStream control = new BurnInputStream();
-        Simulation sim = new Simulation(ship);
-        sim.runSimulation(control);
+        Simulation simulation = new Simulation(ship);
+        simulation.runSimulation(control);
     }
 
 }
